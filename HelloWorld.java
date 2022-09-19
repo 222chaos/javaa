@@ -1,5 +1,5 @@
 
-import com.example.Aniuser;
+import com.example.Dog;
 
 class HelloChina {
   public void println(String text) {
@@ -7,7 +7,8 @@ class HelloChina {
   }
 
   public static void main(String[] args) {
-    Dog user = new Dog();
-    System.out.println(Dog.getName());
+    Dog dog = new Dog();
+    dog.run();
+    System.out.println(dog.getName());
   }
 }
